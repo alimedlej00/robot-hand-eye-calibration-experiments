@@ -46,6 +46,9 @@ Contains the Python scripts used to execute the calibration pipeline.
 
 Main scripts:
 
+- **calibrate_intrinsics_cam1.py**  
+  Detects checkerboard corners and computes camera intrinsic parameters like distortion coefficients.
+  
 - **pnp_cam1_from_images.py**  
   Detects checkerboard corners and computes camera-to-checkerboard poses using the PnP algorithm.
 
@@ -61,9 +64,6 @@ Main scripts:
 Contains input configuration files required for the calibration.
 
 Files include:
-
-- `intrinsics_cam1.json`  
-  Camera intrinsic parameters and checkerboard configuration.
 
 - `ur3e_dh_table_nominal.json`  
   Nominal Denavit–Hartenberg parameters of the UR3e robot.
@@ -84,6 +84,9 @@ Contains the outputs produced by the calibration pipeline.
 
 Files include:
 
+- `intrinsics_cam1.json`  
+  Camera intrinsic parameters and checkerboard configuration.
+  
 - `pnp_cam1_poses.json`  
   Estimated camera-to-checkerboard poses obtained from image observations.
 
