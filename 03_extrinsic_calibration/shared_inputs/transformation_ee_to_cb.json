@@ -1,0 +1,45 @@
+{
+    "transform_name": "EE_to_CB_mount_nominal",
+    "description": "Nominal rigid mount transform from checkerboard frame {CB} to end-effector frame {EE}.",
+    "frames": {
+        "from_frame": "CB",
+        "to_frame": "EE",
+        "notation": "T_EE_CB",
+        "mapping_equation": "p_EE = T_EE_CB * p_CB"
+    },
+    "units": {
+        "length": "m",
+        "angles": "rad"
+    },
+    "frame_conventions": {
+        "EE": {
+            "definition": "UR3e end-effector/flange (tool0) frame as used by forward kinematics",
+            "handedness": "right-handed"
+        },
+        "CB": {
+            "definition": "Checkerboard frame fixed to the calibration pattern",
+            "handedness": "right-handed",
+            "notes": "Axes must match the object-point convention used in PnP."
+        }
+    },
+    "rotation_R_EE_CB_3x3": [
+        [ -1.0, 0.0, 0.0 ],
+        [ 0.0, 1.0, 0.0 ],
+        [ 0.0, 0.0, -1.0 ]
+    ],
+    "translation_t_EE_CB_m": [ 0.08, -0.06, 0.012 ],
+    "transformation_matrix_T_EE_CB_4x4": [
+        [ -1.0, 0.0, 0.0, 0.08 ],
+        [ 0.0, 1.0, 0.0, -0.06 ],
+        [ 0.0, 0.0, -1.0, 0.012 ],
+        [ 0.0, 0.0, 0.0, 1.0 ]
+    ],
+    "interpretation": {
+        "rotation": "Approximately 180 degrees about the EE y-axis (x and z axes inverted).",
+        "translation": "CB origin is +80 mm in x_EE, -60 mm in y_EE, +12 mm in z_EE relative to EE origin."
+    },
+    "assumptions": [
+        "Rigid mount: transform is constant across all robot configurations.",
+        "No calibration refinement applied; values are nominal/assumed."
+    ]
+}
