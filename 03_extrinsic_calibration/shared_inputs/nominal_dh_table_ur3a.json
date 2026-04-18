@@ -1,0 +1,55 @@
+{
+    "robot_name": "UR3e",
+    "manufacturer": "Universal Robots",
+    "dh_convention": "standard",
+    "degrees_of_freedom": 6,
+    "units": {
+        "length": "m",
+        "angle": "rad"
+    },
+    "joint_order": [ "J1", "J2", "J3", "J4", "J5", "J6" ],
+    "joints": [
+        {
+            "joint_id": "J1",
+            "a": 0.0,
+            "alpha": 1.57079632679,
+            "d": 0.15185,
+            "theta_offset": 0.0
+        },
+        {
+            "joint_id": "J2",
+            "a": -0.24355,
+            "alpha": 0.0,
+            "d": 0.0,
+            "theta_offset": 0.0
+        },
+        {
+            "joint_id": "J3",
+            "a": -0.2132,
+            "alpha": 0.0,
+            "d": 0.0,
+            "theta_offset": 0.0
+        },
+        {
+            "joint_id": "J4",
+            "a": 0.0,
+            "alpha": 1.57079632679,
+            "d": 0.13105,
+            "theta_offset": 0.0
+        },
+        {
+            "joint_id": "J5",
+            "a": 0.0,
+            "alpha": -1.57079632679,
+            "d": 0.08535,
+            "theta_offset": 0.0
+        },
+        {
+            "joint_id": "J6",
+            "a": 0.0,
+            "alpha": 0.0,
+            "d": 0.0921,
+            "theta_offset": 0.0
+        }
+    ]
+}
