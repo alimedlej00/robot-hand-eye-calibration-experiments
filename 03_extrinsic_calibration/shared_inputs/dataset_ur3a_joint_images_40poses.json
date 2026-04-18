@@ -1,0 +1,694 @@
+{
+  "robot": "UR3a",
+  "units": {
+    "joint_angles": "deg"
+  },
+  "image_naming_convention": {
+    "cam1": "cam1/img{pose_index}_cam1",
+    "cam2": "cam2/img{pose_index}_cam2",
+    "cam3": "cam3/img{pose_index}_cam3",
+    "cam4": "cam4/img{pose_index}_cam4"
+  },
+  "poses": [
+    {
+      "pose_id": 1,
+      "joint_angles_deg": {
+        "joint_1": 90.0,
+        "joint_2": -180.0,
+        "joint_3": 90.0,
+        "joint_4": -90.0,
+        "joint_5": -63.11,
+        "joint_6": 360.0
+      },
+      "images": {
+        "cam1": "cam1/img1_cam1",
+        "cam2": "cam2/img1_cam2",
+        "cam3": "cam3/img1_cam3",
+        "cam4": "cam4/img1_cam4"
+      }
+    },
+    {
+      "pose_id": 2,
+      "joint_angles_deg": {
+        "joint_1": 121.6,
+        "joint_2": -158.16,
+        "joint_3": 68.23,
+        "joint_4": -88.07,
+        "joint_5": -91.76,
+        "joint_6": 0.0
+      },
+      "images": {
+        "cam1": "cam1/img2_cam1",
+        "cam2": "cam2/img2_cam2",
+        "cam3": "cam3/img2_cam3",
+        "cam4": "cam4/img2_cam4"
+      }
+    },
+    {
+      "pose_id": 3,
+      "joint_angles_deg": {
+        "joint_1": 123.79,
+        "joint_2": -158.13,
+        "joint_3": 26.16,
+        "joint_4": -51.19,
+        "joint_5": -91.76,
+        "joint_6": 0.0
+      },
+      "images": {
+        "cam1": "cam1/img3_cam1",
+        "cam2": "cam2/img3_cam2",
+        "cam3": "cam3/img3_cam3",
+        "cam4": "cam4/img3_cam4"
+      }
+    },
+    {
+      "pose_id": 4,
+      "joint_angles_deg": {
+        "joint_1": 153.47,
+        "joint_2": -161.18,
+        "joint_3": 41.07,
+        "joint_4": -66.84,
+        "joint_5": -114.09,
+        "joint_6": 0.01
+      },
+      "images": {
+        "cam1": "cam1/img4_cam1",
+        "cam2": "cam2/img4_cam2",
+        "cam3": "cam3/img4_cam3",
+        "cam4": "cam4/img4_cam4"
+      }
+    },
+    {
+      "pose_id": 5,
+      "joint_angles_deg": {
+        "joint_1": 145.46,
+        "joint_2": -183.15,
+        "joint_3": 47.57,
+        "joint_4": -58.62,
+        "joint_5": -107.48,
+        "joint_6": 25.34
+      },
+      "images": {
+        "cam1": "cam1/img5_cam1",
+        "cam2": "cam2/img5_cam2",
+        "cam3": "cam3/img5_cam3",
+        "cam4": "cam4/img5_cam4"
+      }
+    },
+    {
+      "pose_id": 6,
+      "joint_angles_deg": {
+        "joint_1": 145.48,
+        "joint_2": -211.09,
+        "joint_3": 73.55,
+        "joint_4": -57.94,
+        "joint_5": -114.64,
+        "joint_6": 6.96
+      },
+      "images": {
+        "cam1": "cam1/img6_cam1",
+        "cam2": "cam2/img6_cam2",
+        "cam3": "cam3/img6_cam3",
+        "cam4": "cam4/img6_cam4"
+      }
+    },
+    {
+      "pose_id": 7,
+      "joint_angles_deg": {
+        "joint_1": 142.54,
+        "joint_2": -168.65,
+        "joint_3": 39.3,
+        "joint_4": -89.07,
+        "joint_5": -126.37,
+        "joint_6": 334.85
+      },
+      "images": {
+        "cam1": "cam1/img7_cam1",
+        "cam2": "cam2/img7_cam2",
+        "cam3": "cam3/img7_cam3",
+        "cam4": "cam4/img7_cam4"
+      }
+    },
+    {
+      "pose_id": 8,
+      "joint_angles_deg": {
+        "joint_1": 139.85,
+        "joint_2": -147.42,
+        "joint_3": 15.33,
+        "joint_4": -70.95,
+        "joint_5": -116.88,
+        "joint_6": 350.55
+      },
+      "images": {
+        "cam1": "cam1/img8_cam1",
+        "cam2": "cam2/img8_cam2",
+        "cam3": "cam3/img8_cam3",
+        "cam4": "cam4/img8_cam4"
+      }
+    },
+    {
+      "pose_id": 9,
+      "joint_angles_deg": {
+        "joint_1": 157.35,
+        "joint_2": -208.89,
+        "joint_3": 44.21,
+        "joint_4": -27.58,
+        "joint_5": -121.49,
+        "joint_6": 341.69
+      },
+      "images": {
+        "cam1": "cam1/img9_cam1",
+        "cam2": "cam2/img9_cam2",
+        "cam3": "cam3/img9_cam3",
+        "cam4": "cam4/img9_cam4"
+      }
+    },
+    {
+      "pose_id": 10,
+      "joint_angles_deg": {
+        "joint_1": 122.19,
+        "joint_2": -198.06,
+        "joint_3": 38.44,
+        "joint_4": -46.51,
+        "joint_5": -112.38,
+        "joint_6": 341.7
+      },
+      "images": {
+        "cam1": "cam1/img10_cam1",
+        "cam2": "cam2/img10_cam2",
+        "cam3": "cam3/img10_cam3",
+        "cam4": "cam4/img10_cam4"
+      }
+    },
+    {
+      "pose_id": 11,
+      "joint_angles_deg": {
+        "joint_1": 117.81,
+        "joint_2": -184.7,
+        "joint_3": 33.92,
+        "joint_4": -45.21,
+        "joint_5": -102.27,
+        "joint_6": 345.81
+      },
+      "images": {
+        "cam1": "cam1/img11_cam1",
+        "cam2": "cam2/img11_cam2",
+        "cam3": "cam3/img11_cam3",
+        "cam4": "cam4/img11_cam4"
+      }
+    },
+    {
+      "pose_id": 12,
+      "joint_angles_deg": {
+        "joint_1": 115.48,
+        "joint_2": -173.94,
+        "joint_3": 30.95,
+        "joint_4": -50.27,
+        "joint_5": -105.7,
+        "joint_6": 1.78
+      },
+      "images": {
+        "cam1": "cam1/img12_cam1",
+        "cam2": "cam2/img12_cam2",
+        "cam3": "cam3/img12_cam3",
+        "cam4": "cam4/img12_cam4"
+      }
+    },
+    {
+      "pose_id": 13,
+      "joint_angles_deg": {
+        "joint_1": 113.65,
+        "joint_2": -172.8,
+        "joint_3": 53.58,
+        "joint_4": -62.99,
+        "joint_5": -105.69,
+        "joint_6": 1.78
+      },
+      "images": {
+        "cam1": "cam1/img13_cam1",
+        "cam2": "cam2/img13_cam2",
+        "cam3": "cam3/img13_cam3",
+        "cam4": "cam4/img13_cam4"
+      }
+    },
+    {
+      "pose_id": 14,
+      "joint_angles_deg": {
+        "joint_1": 120.33,
+        "joint_2": -166.28,
+        "joint_3": 45.02,
+        "joint_4": -57.91,
+        "joint_5": -114.42,
+        "joint_6": 353.11
+      },
+      "images": {
+        "cam1": "cam1/img14_cam1",
+        "cam2": "cam2/img14_cam2",
+        "cam3": "cam3/img14_cam3",
+        "cam4": "cam4/img14_cam4"
+      }
+    },
+    {
+      "pose_id": 15,
+      "joint_angles_deg": {
+        "joint_1": 115.74,
+        "joint_2": -157.79,
+        "joint_3": 29.79,
+        "joint_4": -67.5,
+        "joint_5": -114.45,
+        "joint_6": 3.13
+      },
+      "images": {
+        "cam1": "cam1/img15_cam1",
+        "cam2": "cam2/img15_cam2",
+        "cam3": "cam3/img15_cam3",
+        "cam4": "cam4/img15_cam4"
+      }
+    },
+    {
+      "pose_id": 16,
+      "joint_angles_deg": {
+        "joint_1": 111.01,
+        "joint_2": -149.19,
+        "joint_3": 16.29,
+        "joint_4": -49.16,
+        "joint_5": -100.23,
+        "joint_6": 13.56
+      },
+      "images": {
+        "cam1": "cam1/img16_cam1",
+        "cam2": "cam2/img16_cam2",
+        "cam3": "cam3/img16_cam3",
+        "cam4": "cam4/img16_cam4"
+      }
+    },
+    {
+      "pose_id": 17,
+      "joint_angles_deg": {
+        "joint_1": 118.37,
+        "joint_2": -142.05,
+        "joint_3": 47.26,
+        "joint_4": -78.02,
+        "joint_5": -112.01,
+        "joint_6": 4.55
+      },
+      "images": {
+        "cam1": "cam1/img17_cam1",
+        "cam2": "cam2/img17_cam2",
+        "cam3": "cam3/img17_cam3",
+        "cam4": "cam4/img17_cam4"
+      }
+    },
+    {
+      "pose_id": 18,
+      "joint_angles_deg": {
+        "joint_1": 119.0,
+        "joint_2": -131.65,
+        "joint_3": 47.3,
+        "joint_4": -103.39,
+        "joint_5": -115.29,
+        "joint_6": 351.2
+      },
+      "images": {
+        "cam1": "cam1/img18_cam1",
+        "cam2": "cam2/img18_cam2",
+        "cam3": "cam3/img18_cam3",
+        "cam4": "cam4/img18_cam4"
+      }
+    },
+    {
+      "pose_id": 19,
+      "joint_angles_deg": {
+        "joint_1": 124.69,
+        "joint_2": -126.55,
+        "joint_3": 37.37,
+        "joint_4": -104.23,
+        "joint_5": -107.49,
+        "joint_6": 2.06
+      },
+      "images": {
+        "cam1": "cam1/img19_cam1",
+        "cam2": "cam2/img19_cam2",
+        "cam3": "cam3/img19_cam3",
+        "cam4": "cam4/img19_cam4"
+      }
+    },
+    {
+      "pose_id": 20,
+      "joint_angles_deg": {
+        "joint_1": 132.63,
+        "joint_2": -122.44,
+        "joint_3": 33.18,
+        "joint_4": -98.46,
+        "joint_5": -116.62,
+        "joint_6": 353.61
+      },
+      "images": {
+        "cam1": "cam1/img20_cam1",
+        "cam2": "cam2/img20_cam2",
+        "cam3": "cam3/img20_cam3",
+        "cam4": "cam4/img20_cam4"
+      }
+    },
+    {
+      "pose_id": 21,
+      "joint_angles_deg": {
+        "joint_1": 94.11,
+        "joint_2": -210.18,
+        "joint_3": 88.12,
+        "joint_4": -74.18,
+        "joint_5": -99.07,
+        "joint_6": 0.38
+      },
+      "images": {
+        "cam1": "cam1/img21_cam1",
+        "cam2": "cam2/img21_cam2",
+        "cam3": "cam3/img21_cam3",
+        "cam4": "cam4/img21_cam4"
+      }
+    },
+    {
+      "pose_id": 22,
+      "joint_angles_deg": {
+        "joint_1": 86.63,
+        "joint_2": -195.68,
+        "joint_3": 74.13,
+        "joint_4": -65.86,
+        "joint_5": -105.68,
+        "joint_6": 7.23
+      },
+      "images": {
+        "cam1": "cam1/img22_cam1",
+        "cam2": "cam2/img22_cam2",
+        "cam3": "cam3/img22_cam3",
+        "cam4": "cam4/img22_cam4"
+      }
+    },
+    {
+      "pose_id": 23,
+      "joint_angles_deg": {
+        "joint_1": 83.94,
+        "joint_2": -181.07,
+        "joint_3": 59.5,
+        "joint_4": -60.16,
+        "joint_5": -92.37,
+        "joint_6": 12.28
+      },
+      "images": {
+        "cam1": "cam1/img23_cam1",
+        "cam2": "cam2/img23_cam2",
+        "cam3": "cam3/img23_cam3",
+        "cam4": "cam4/img23_cam4"
+      }
+    },
+    {
+      "pose_id": 24,
+      "joint_angles_deg": {
+        "joint_1": 88.73,
+        "joint_2": -170.59,
+        "joint_3": 48.03,
+        "joint_4": -53.13,
+        "joint_5": -85.33,
+        "joint_6": 12.28
+      },
+      "images": {
+        "cam1": "cam1/img24_cam1",
+        "cam2": "cam2/img24_cam2",
+        "cam3": "cam3/img24_cam3",
+        "cam4": "cam4/img24_cam4"
+      }
+    },
+    {
+      "pose_id": 25,
+      "joint_angles_deg": {
+        "joint_1": 88.42,
+        "joint_2": -155.92,
+        "joint_3": 59.54,
+        "joint_4": -72.81,
+        "joint_5": -88.83,
+        "joint_6": 12.04
+      },
+      "images": {
+        "cam1": "cam1/img25_cam1",
+        "cam2": "cam2/img25_cam2",
+        "cam3": "cam3/img25_cam3",
+        "cam4": "cam4/img25_cam4"
+      }
+    },
+    {
+      "pose_id": 26,
+      "joint_angles_deg": {
+        "joint_1": 81.91,
+        "joint_2": -162.9,
+        "joint_3": 66.86,
+        "joint_4": -72.88,
+        "joint_5": -93.88,
+        "joint_6": 3.19
+      },
+      "images": {
+        "cam1": "cam1/img26_cam1",
+        "cam2": "cam2/img26_cam2",
+        "cam3": "cam3/img26_cam3",
+        "cam4": "cam4/img26_cam4"
+      }
+    },
+    {
+      "pose_id": 27,
+      "joint_angles_deg": {
+        "joint_1": 89.25,
+        "joint_2": -140.57,
+        "joint_3": 49.85,
+        "joint_4": -87.99,
+        "joint_5": -101.03,
+        "joint_6": 355.42
+      },
+      "images": {
+        "cam1": "cam1/img27_cam1",
+        "cam2": "cam2/img27_cam2",
+        "cam3": "cam3/img27_cam3",
+        "cam4": "cam4/img27_cam4"
+      }
+    },
+    {
+      "pose_id": 28,
+      "joint_angles_deg": {
+        "joint_1": 83.98,
+        "joint_2": -130.15,
+        "joint_3": 37.96,
+        "joint_4": -81.3,
+        "joint_5": -84.36,
+        "joint_6": 5.5
+      },
+      "images": {
+        "cam1": "cam1/img28_cam1",
+        "cam2": "cam2/img28_cam2",
+        "cam3": "cam3/img28_cam3",
+        "cam4": "cam4/img28_cam4"
+      }
+    },
+    {
+      "pose_id": 29,
+      "joint_angles_deg": {
+        "joint_1": 78.56,
+        "joint_2": -116.17,
+        "joint_3": 19.54,
+        "joint_4": -85.76,
+        "joint_5": -93.74,
+        "joint_6": 10.74
+      },
+      "images": {
+        "cam1": "cam1/img29_cam1",
+        "cam2": "cam2/img29_cam2",
+        "cam3": "cam3/img29_cam3",
+        "cam4": "cam4/img29_cam4"
+      }
+    },
+    {
+      "pose_id": 30,
+      "joint_angles_deg": {
+        "joint_1": 89.3,
+        "joint_2": -109.38,
+        "joint_3": 19.72,
+        "joint_4": -76.33,
+        "joint_5": -108.01,
+        "joint_6": 10.73
+      },
+      "images": {
+        "cam1": "cam1/img30_cam1",
+        "cam2": "cam2/img30_cam2",
+        "cam3": "cam3/img30_cam3",
+        "cam4": "cam4/img30_cam4"
+      }
+    },
+    {
+      "pose_id": 31,
+      "joint_angles_deg": {
+        "joint_1": 64.65,
+        "joint_2": -196.92,
+        "joint_3": 57.31,
+        "joint_4": -39.95,
+        "joint_5": -95.63,
+        "joint_6": 358.38
+      },
+      "images": {
+        "cam1": "cam1/img31_cam1",
+        "cam2": "cam2/img31_cam2",
+        "cam3": "cam3/img31_cam3",
+        "cam4": "cam4/img31_cam4"
+      }
+    },
+    {
+      "pose_id": 32,
+      "joint_angles_deg": {
+        "joint_1": 55.67,
+        "joint_2": -187.83,
+        "joint_3": 40.07,
+        "joint_4": -31.59,
+        "joint_5": -78.23,
+        "joint_6": 8.73
+      },
+      "images": {
+        "cam1": "cam1/img32_cam1",
+        "cam2": "cam2/img32_cam2",
+        "cam3": "cam3/img32_cam3",
+        "cam4": "cam4/img32_cam4"
+      }
+    },
+    {
+      "pose_id": 33,
+      "joint_angles_deg": {
+        "joint_1": 54.58,
+        "joint_2": -177.89,
+        "joint_3": 31.56,
+        "joint_4": -29.43,
+        "joint_5": -70.45,
+        "joint_6": 353.25
+      },
+      "images": {
+        "cam1": "cam1/img33_cam1",
+        "cam2": "cam2/img33_cam2",
+        "cam3": "cam3/img33_cam3",
+        "cam4": "cam4/img33_cam4"
+      }
+    },
+    {
+      "pose_id": 34,
+      "joint_angles_deg": {
+        "joint_1": 56.33,
+        "joint_2": -161.26,
+        "joint_3": 23.06,
+        "joint_4": -40.04,
+        "joint_5": -66.67,
+        "joint_6": 7.54
+      },
+      "images": {
+        "cam1": "cam1/img34_cam1",
+        "cam2": "cam2/img34_cam2",
+        "cam3": "cam3/img34_cam3",
+        "cam4": "cam4/img34_cam4"
+      }
+    },
+    {
+      "pose_id": 35,
+      "joint_angles_deg": {
+        "joint_1": 68.22,
+        "joint_2": -171.54,
+        "joint_3": 142.97,
+        "joint_4": -142.68,
+        "joint_5": -70.85,
+        "joint_6": 13.53
+      },
+      "images": {
+        "cam1": "cam1/img35_cam1",
+        "cam2": "cam2/img35_cam2",
+        "cam3": "cam3/img35_cam3",
+        "cam4": "cam4/img35_cam4"
+      }
+    },
+    {
+      "pose_id": 36,
+      "joint_angles_deg": {
+        "joint_1": 75.89,
+        "joint_2": -175.05,
+        "joint_3": 122.51,
+        "joint_4": -140.47,
+        "joint_5": -99.5,
+        "joint_6": 2.6
+      },
+      "images": {
+        "cam1": "cam1/img36_cam1",
+        "cam2": "cam2/img36_cam2",
+        "cam3": "cam3/img36_cam3",
+        "cam4": "cam4/img36_cam4"
+      }
+    },
+    {
+      "pose_id": 37,
+      "joint_angles_deg": {
+        "joint_1": 65.44,
+        "joint_2": -163.78,
+        "joint_3": 77.55,
+        "joint_4": -96.83,
+        "joint_5": -72.17,
+        "joint_6": 8.33
+      },
+      "images": {
+        "cam1": "cam1/img37_cam1",
+        "cam2": "cam2/img37_cam2",
+        "cam3": "cam3/img37_cam3",
+        "cam4": "cam4/img37_cam4"
+      }
+    },
+    {
+      "pose_id": 38,
+      "joint_angles_deg": {
+        "joint_1": 54.88,
+        "joint_2": -150.41,
+        "joint_3": 59.35,
+        "joint_4": -86.74,
+        "joint_5": -67.43,
+        "joint_6": 22.98
+      },
+      "images": {
+        "cam1": "cam1/img38_cam1",
+        "cam2": "cam2/img38_cam2",
+        "cam3": "cam3/img38_cam3",
+        "cam4": "cam4/img38_cam4"
+      }
+    },
+    {
+      "pose_id": 39,
+      "joint_angles_deg": {
+        "joint_1": 63.13,
+        "joint_2": -141.25,
+        "joint_3": 47.05,
+        "joint_4": -74.26,
+        "joint_5": -76.63,
+        "joint_6": 358.01
+      },
+      "images": {
+        "cam1": "cam1/img39_cam1",
+        "cam2": "cam2/img39_cam2",
+        "cam3": "cam3/img39_cam3",
+        "cam4": "cam4/img39_cam4"
+      }
+    },
+    {
+      "pose_id": 40,
+      "joint_angles_deg": {
+        "joint_1": 90.13,
+        "joint_2": -160.39,
+        "joint_3": 143.02,
+        "joint_4": -165.96,
+        "joint_5": -94.83,
+        "joint_6": 0.16
+      },
+      "images": {
+        "cam1": "cam1/img40_cam1",
+        "cam2": "cam2/img40_cam2",
+        "cam3": "cam3/img40_cam3",
+        "cam4": "cam4/img40_cam4"
+      }
+    }
+  ]
+}
