@@ -192,9 +192,9 @@ python run_pipeline.py
 
 ## 9. Author
 
-Ali Lhadi Medlej
-M.Sc. Mechatronics Engineering
-Technische Hochschule Deggendorf
+* Ali Lhadi Medlej
+* M.Sc. Mechatronics Engineering
+* Technische Hochschule Deggendorf
 
 ---
 
