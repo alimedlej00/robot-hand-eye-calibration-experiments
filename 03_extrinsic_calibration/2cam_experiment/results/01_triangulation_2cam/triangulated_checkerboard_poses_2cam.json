@@ -6,8 +6,8 @@
   ],
   "method": "triangulation_followed_by_rigid_alignment",
   "image_directories": {
-    "cam1": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\images\\cam1_images",
-    "cam2": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\images\\cam2_images"
+    "cam1": "../../images/cam1_images",
+    "cam2": "../../images/cam2_images"
   },
   "pattern": {
     "cols": 9,

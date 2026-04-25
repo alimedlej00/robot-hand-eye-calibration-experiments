@@ -3,7 +3,7 @@
   "units": {
     "joint_angles": "rad"
   },
-  "source_dataset": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\shared_inputs\\dataset_ur3a_joint_images_40poses.json",
+  "source_dataset": "../../shared_inputs/dataset_ur3a_joint_images_40poses.json",
   "cameras_used": [
     "cam1",
     "cam2"

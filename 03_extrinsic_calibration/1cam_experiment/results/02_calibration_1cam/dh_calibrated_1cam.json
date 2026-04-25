@@ -1,12 +1,13 @@
 {
   "meta": {
-    "robot": "UR3e",
+    "robot": "UR3a",
     "dh_convention": "standard",
     "units": {
       "length": "m",
       "angle": "rad"
     },
-    "source": "calibrated_from_vision_1cam_compat_oldlogic"
+    "source": "calibrated_from_1cam_vision_pipeline",
+    "experiment": "1cam_experiment"
   },
   "joints": [
     {

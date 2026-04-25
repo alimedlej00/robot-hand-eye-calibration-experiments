@@ -1,6 +1,6 @@
 {
   "camera_id": "cam1",
-  "image_directory": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\images\\cam1_images",
+  "image_directory": "../../images/cam1_images",
   "intrinsics_used": {
     "K_3x3": [
       [
@@ -3246,5 +3246,6 @@
         "sy": 0.6666666666666666
       }
     }
-  ]
+  ],
+  "metadata": {}
 }

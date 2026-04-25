@@ -3,12 +3,22 @@
   "units": {
     "joint_angles": "rad"
   },
-  "source_dataset": "../../shared_inputs/dataset_ur3a_joint_images_40poses.json",
-  "camera_used": "cam1",
+  "source_dataset": "03_extrinsic_calibration/shared_inputs/dataset_ur3a_joint_images_40poses.json",
+  "cameras_used": [
+    "cam1",
+    "cam2",
+    "cam3",
+    "cam4"
+  ],
   "poses": [
     {
       "pose_id": 1,
-      "image": "img1_cam1.png",
+      "image_quadruplet": [
+        "img1_cam1.png",
+        "img1_cam2.png",
+        "img1_cam3.png",
+        "img1_cam4.png"
+      ],
       "joints_deg": [
         90.0,
         -180.0,
@@ -28,7 +38,12 @@
     },
     {
       "pose_id": 2,
-      "image": "img2_cam1.png",
+      "image_quadruplet": [
+        "img2_cam1.png",
+        "img2_cam2.png",
+        "img2_cam3.png",
+        "img2_cam4.png"
+      ],
       "joints_deg": [
         121.6,
         -158.16,
@@ -48,7 +63,12 @@
     },
     {
       "pose_id": 3,
-      "image": "img3_cam1.png",
+      "image_quadruplet": [
+        "img3_cam1.png",
+        "img3_cam2.png",
+        "img3_cam3.png",
+        "img3_cam4.png"
+      ],
       "joints_deg": [
         123.79,
         -158.13,
@@ -68,7 +88,12 @@
     },
     {
       "pose_id": 4,
-      "image": "img4_cam1.png",
+      "image_quadruplet": [
+        "img4_cam1.png",
+        "img4_cam2.png",
+        "img4_cam3.png",
+        "img4_cam4.png"
+      ],
       "joints_deg": [
         153.47,
         -161.18,
@@ -88,7 +113,12 @@
     },
     {
       "pose_id": 5,
-      "image": "img5_cam1.png",
+      "image_quadruplet": [
+        "img5_cam1.png",
+        "img5_cam2.png",
+        "img5_cam3.png",
+        "img5_cam4.png"
+      ],
       "joints_deg": [
         145.46,
         -183.15,
@@ -108,7 +138,12 @@
     },
     {
       "pose_id": 6,
-      "image": "img6_cam1.png",
+      "image_quadruplet": [
+        "img6_cam1.png",
+        "img6_cam2.png",
+        "img6_cam3.png",
+        "img6_cam4.png"
+      ],
       "joints_deg": [
         145.48,
         -211.09,
@@ -128,7 +163,12 @@
     },
     {
       "pose_id": 7,
-      "image": "img7_cam1.png",
+      "image_quadruplet": [
+        "img7_cam1.png",
+        "img7_cam2.png",
+        "img7_cam3.png",
+        "img7_cam4.png"
+      ],
       "joints_deg": [
         142.54,
         -168.65,
@@ -148,7 +188,12 @@
     },
     {
       "pose_id": 8,
-      "image": "img8_cam1.png",
+      "image_quadruplet": [
+        "img8_cam1.png",
+        "img8_cam2.png",
+        "img8_cam3.png",
+        "img8_cam4.png"
+      ],
       "joints_deg": [
         139.85,
         -147.42,
@@ -168,7 +213,12 @@
     },
     {
       "pose_id": 9,
-      "image": "img9_cam1.png",
+      "image_quadruplet": [
+        "img9_cam1.png",
+        "img9_cam2.png",
+        "img9_cam3.png",
+        "img9_cam4.png"
+      ],
       "joints_deg": [
         157.35,
         -208.89,
@@ -188,7 +238,12 @@
     },
     {
       "pose_id": 10,
-      "image": "img10_cam1.png",
+      "image_quadruplet": [
+        "img10_cam1.png",
+        "img10_cam2.png",
+        "img10_cam3.png",
+        "img10_cam4.png"
+      ],
       "joints_deg": [
         122.19,
         -198.06,
@@ -208,7 +263,12 @@
     },
     {
       "pose_id": 11,
-      "image": "img11_cam1.png",
+      "image_quadruplet": [
+        "img11_cam1.png",
+        "img11_cam2.png",
+        "img11_cam3.png",
+        "img11_cam4.png"
+      ],
       "joints_deg": [
         117.81,
         -184.7,
@@ -228,7 +288,12 @@
     },
     {
       "pose_id": 12,
-      "image": "img12_cam1.png",
+      "image_quadruplet": [
+        "img12_cam1.png",
+        "img12_cam2.png",
+        "img12_cam3.png",
+        "img12_cam4.png"
+      ],
       "joints_deg": [
         115.48,
         -173.94,
@@ -248,7 +313,12 @@
     },
     {
       "pose_id": 13,
-      "image": "img13_cam1.png",
+      "image_quadruplet": [
+        "img13_cam1.png",
+        "img13_cam2.png",
+        "img13_cam3.png",
+        "img13_cam4.png"
+      ],
       "joints_deg": [
         113.65,
         -172.8,
@@ -268,7 +338,12 @@
     },
     {
       "pose_id": 14,
-      "image": "img14_cam1.png",
+      "image_quadruplet": [
+        "img14_cam1.png",
+        "img14_cam2.png",
+        "img14_cam3.png",
+        "img14_cam4.png"
+      ],
       "joints_deg": [
         120.33,
         -166.28,
@@ -288,7 +363,12 @@
     },
     {
       "pose_id": 15,
-      "image": "img15_cam1.png",
+      "image_quadruplet": [
+        "img15_cam1.png",
+        "img15_cam2.png",
+        "img15_cam3.png",
+        "img15_cam4.png"
+      ],
       "joints_deg": [
         115.74,
         -157.79,
@@ -308,7 +388,12 @@
     },
     {
       "pose_id": 16,
-      "image": "img16_cam1.png",
+      "image_quadruplet": [
+        "img16_cam1.png",
+        "img16_cam2.png",
+        "img16_cam3.png",
+        "img16_cam4.png"
+      ],
       "joints_deg": [
         111.01,
         -149.19,
@@ -328,7 +413,12 @@
     },
     {
       "pose_id": 17,
-      "image": "img17_cam1.png",
+      "image_quadruplet": [
+        "img17_cam1.png",
+        "img17_cam2.png",
+        "img17_cam3.png",
+        "img17_cam4.png"
+      ],
       "joints_deg": [
         118.37,
         -142.05,
@@ -348,7 +438,12 @@
     },
     {
       "pose_id": 18,
-      "image": "img18_cam1.png",
+      "image_quadruplet": [
+        "img18_cam1.png",
+        "img18_cam2.png",
+        "img18_cam3.png",
+        "img18_cam4.png"
+      ],
       "joints_deg": [
         119.0,
         -131.65,
@@ -368,7 +463,12 @@
     },
     {
       "pose_id": 19,
-      "image": "img19_cam1.png",
+      "image_quadruplet": [
+        "img19_cam1.png",
+        "img19_cam2.png",
+        "img19_cam3.png",
+        "img19_cam4.png"
+      ],
       "joints_deg": [
         124.69,
         -126.55,
@@ -388,7 +488,12 @@
     },
     {
       "pose_id": 20,
-      "image": "img20_cam1.png",
+      "image_quadruplet": [
+        "img20_cam1.png",
+        "img20_cam2.png",
+        "img20_cam3.png",
+        "img20_cam4.png"
+      ],
       "joints_deg": [
         132.63,
         -122.44,
@@ -408,7 +513,12 @@
     },
     {
       "pose_id": 21,
-      "image": "img21_cam1.png",
+      "image_quadruplet": [
+        "img21_cam1.png",
+        "img21_cam2.png",
+        "img21_cam3.png",
+        "img21_cam4.png"
+      ],
       "joints_deg": [
         94.11,
         -210.18,
@@ -428,7 +538,12 @@
     },
     {
       "pose_id": 22,
-      "image": "img22_cam1.png",
+      "image_quadruplet": [
+        "img22_cam1.png",
+        "img22_cam2.png",
+        "img22_cam3.png",
+        "img22_cam4.png"
+      ],
       "joints_deg": [
         86.63,
         -195.68,
@@ -448,7 +563,12 @@
     },
     {
       "pose_id": 23,
-      "image": "img23_cam1.png",
+      "image_quadruplet": [
+        "img23_cam1.png",
+        "img23_cam2.png",
+        "img23_cam3.png",
+        "img23_cam4.png"
+      ],
       "joints_deg": [
         83.94,
         -181.07,
@@ -468,7 +588,12 @@
     },
     {
       "pose_id": 24,
-      "image": "img24_cam1.png",
+      "image_quadruplet": [
+        "img24_cam1.png",
+        "img24_cam2.png",
+        "img24_cam3.png",
+        "img24_cam4.png"
+      ],
       "joints_deg": [
         88.73,
         -170.59,
@@ -488,7 +613,12 @@
     },
     {
       "pose_id": 25,
-      "image": "img25_cam1.png",
+      "image_quadruplet": [
+        "img25_cam1.png",
+        "img25_cam2.png",
+        "img25_cam3.png",
+        "img25_cam4.png"
+      ],
       "joints_deg": [
         88.42,
         -155.92,
@@ -508,7 +638,12 @@
     },
     {
       "pose_id": 26,
-      "image": "img26_cam1.png",
+      "image_quadruplet": [
+        "img26_cam1.png",
+        "img26_cam2.png",
+        "img26_cam3.png",
+        "img26_cam4.png"
+      ],
       "joints_deg": [
         81.91,
         -162.9,
@@ -528,7 +663,12 @@
     },
     {
       "pose_id": 27,
-      "image": "img27_cam1.png",
+      "image_quadruplet": [
+        "img27_cam1.png",
+        "img27_cam2.png",
+        "img27_cam3.png",
+        "img27_cam4.png"
+      ],
       "joints_deg": [
         89.25,
         -140.57,
@@ -548,7 +688,12 @@
     },
     {
       "pose_id": 28,
-      "image": "img28_cam1.png",
+      "image_quadruplet": [
+        "img28_cam1.png",
+        "img28_cam2.png",
+        "img28_cam3.png",
+        "img28_cam4.png"
+      ],
       "joints_deg": [
         83.98,
         -130.15,
@@ -568,7 +713,12 @@
     },
     {
       "pose_id": 29,
-      "image": "img29_cam1.png",
+      "image_quadruplet": [
+        "img29_cam1.png",
+        "img29_cam2.png",
+        "img29_cam3.png",
+        "img29_cam4.png"
+      ],
       "joints_deg": [
         78.56,
         -116.17,
@@ -588,7 +738,12 @@
     },
     {
       "pose_id": 30,
-      "image": "img30_cam1.png",
+      "image_quadruplet": [
+        "img30_cam1.png",
+        "img30_cam2.png",
+        "img30_cam3.png",
+        "img30_cam4.png"
+      ],
       "joints_deg": [
         89.3,
         -109.38,
@@ -608,7 +763,12 @@
     },
     {
       "pose_id": 31,
-      "image": "img31_cam1.png",
+      "image_quadruplet": [
+        "img31_cam1.png",
+        "img31_cam2.png",
+        "img31_cam3.png",
+        "img31_cam4.png"
+      ],
       "joints_deg": [
         64.65,
         -196.92,
@@ -628,7 +788,12 @@
     },
     {
       "pose_id": 32,
-      "image": "img32_cam1.png",
+      "image_quadruplet": [
+        "img32_cam1.png",
+        "img32_cam2.png",
+        "img32_cam3.png",
+        "img32_cam4.png"
+      ],
       "joints_deg": [
         55.67,
         -187.83,
@@ -648,7 +813,12 @@
     },
     {
       "pose_id": 33,
-      "image": "img33_cam1.png",
+      "image_quadruplet": [
+        "img33_cam1.png",
+        "img33_cam2.png",
+        "img33_cam3.png",
+        "img33_cam4.png"
+      ],
       "joints_deg": [
         54.58,
         -177.89,
@@ -668,7 +838,12 @@
     },
     {
       "pose_id": 34,
-      "image": "img34_cam1.png",
+      "image_quadruplet": [
+        "img34_cam1.png",
+        "img34_cam2.png",
+        "img34_cam3.png",
+        "img34_cam4.png"
+      ],
       "joints_deg": [
         56.33,
         -161.26,
@@ -688,7 +863,12 @@
     },
     {
       "pose_id": 35,
-      "image": "img35_cam1.png",
+      "image_quadruplet": [
+        "img35_cam1.png",
+        "img35_cam2.png",
+        "img35_cam3.png",
+        "img35_cam4.png"
+      ],
       "joints_deg": [
         68.22,
         -171.54,
@@ -708,7 +888,12 @@
     },
     {
       "pose_id": 36,
-      "image": "img36_cam1.png",
+      "image_quadruplet": [
+        "img36_cam1.png",
+        "img36_cam2.png",
+        "img36_cam3.png",
+        "img36_cam4.png"
+      ],
       "joints_deg": [
         75.89,
         -175.05,
@@ -728,7 +913,12 @@
     },
     {
       "pose_id": 37,
-      "image": "img37_cam1.png",
+      "image_quadruplet": [
+        "img37_cam1.png",
+        "img37_cam2.png",
+        "img37_cam3.png",
+        "img37_cam4.png"
+      ],
       "joints_deg": [
         65.44,
         -163.78,
@@ -748,7 +938,12 @@
     },
     {
       "pose_id": 38,
-      "image": "img38_cam1.png",
+      "image_quadruplet": [
+        "img38_cam1.png",
+        "img38_cam2.png",
+        "img38_cam3.png",
+        "img38_cam4.png"
+      ],
       "joints_deg": [
         54.88,
         -150.41,
@@ -768,7 +963,12 @@
     },
     {
       "pose_id": 39,
-      "image": "img39_cam1.png",
+      "image_quadruplet": [
+        "img39_cam1.png",
+        "img39_cam2.png",
+        "img39_cam3.png",
+        "img39_cam4.png"
+      ],
       "joints_deg": [
         63.13,
         -141.25,
@@ -788,7 +988,12 @@
     },
     {
       "pose_id": 40,
-      "image": "img40_cam1.png",
+      "image_quadruplet": [
+        "img40_cam1.png",
+        "img40_cam2.png",
+        "img40_cam3.png",
+        "img40_cam4.png"
+      ],
       "joints_deg": [
         90.13,
         -160.39,
@@ -806,5 +1011,9 @@
         0.0027925268031909274
       ]
     }
-  ]
+  ],
+  "release_info": {
+    "public_release": true,
+    "privacy_note": "Local absolute paths were replaced with repository-relative paths for public GitHub release. Numerical calibration and validation results are unchanged."
+  }
 }

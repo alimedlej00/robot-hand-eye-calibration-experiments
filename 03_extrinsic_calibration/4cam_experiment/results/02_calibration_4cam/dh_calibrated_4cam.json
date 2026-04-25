@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "robot": "UR3a",
+    "dh_convention": "standard",
+    "units": {
+      "length": "m",
+      "angle": "rad"
+    },
+    "source": "robust_calibrated_from_4cam_triangulation_after_outlier_rejection",
+    "public_release": true,
+    "privacy_note": "Local absolute paths were replaced with repository-relative paths for public GitHub release. Numerical calibration and validation results are unchanged."
+  },
+  "joints": [
+    {
+      "joint_id": "J1",
+      "a": 0.001999999224504575,
+      "alpha": 1.57079632679,
+      "d": 0.15384999994528928,
+      "theta_offset": 0.0
+    },
+    {
+      "joint_id": "J2",
+      "a": -0.24155000078333827,
+      "alpha": 0.0,
+      "d": -0.0003703757148326624,
+      "theta_offset": 0.0
+    },
+    {
+      "joint_id": "J3",
+      "a": -0.21120000000001019,
+      "alpha": 0.0,
+      "d": -0.00037058891718902,
+      "theta_offset": 0.0
+    },
+    {
+      "joint_id": "J4",
+      "a": -0.0012715271162488631,
+      "alpha": 1.57079632679,
+      "d": 0.13068014096113909,
+      "theta_offset": 0.0
+    },
+    {
+      "joint_id": "J5",
+      "a": -0.0008649447529778007,
+      "alpha": -1.57079632679,
+      "d": 0.0873499984326199,
+      "theta_offset": 0.0
+    },
+    {
+      "joint_id": "J6",
+      "a": 0.0019999999999979028,
+      "alpha": 0.0,
+      "d": 0.09010000090612161,
+      "theta_offset": 0.0
+    }
+  ],
+  "joint_zero_offsets_rad": [
+    -0.0023505290631881375,
+    -0.017453286797395426,
+    -0.0033500281867394396,
+    0.009906398575052067,
+    0.004947989191954274,
+    -0.005475755328912395
+  ],
+  "joint_zero_offsets_deg": [
+    -0.13467539494351946,
+    -0.999999672122159,
+    -0.1919424763500339,
+    0.5675948285248961,
+    0.28349889777532644,
+    -0.31373766999295016
+  ]
+}

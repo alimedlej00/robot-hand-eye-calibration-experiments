@@ -2,13 +2,13 @@
   "validation_name": "UR3a_2cam_DH_validation_triangulation",
   "purpose": "Validation of the calibrated DH table using held-out test poses by comparing triangulation-measured checkerboard pose against checkerboard pose predicted from forward kinematics.",
   "paths_used": {
-    "triangulated": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\2cam_experiment\\results\\01_triangulation_2cam\\triangulated_checkerboard_poses_2cam.json",
-    "joints": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\2cam_experiment\\results\\01_triangulation_2cam\\ur3a_joints_data_2cam.json",
-    "dh_nominal": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\shared_inputs\\robot_model_dh_nominal_ur3a.json",
-    "dh_calibrated": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\2cam_experiment\\results\\02_calibration_2cam\\dh_calibrated_2cam.json",
-    "ee_cb": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\shared_inputs\\tf_ee_to_cb.json",
-    "calib_report": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\2cam_experiment\\results\\02_calibration_2cam\\calibration_report_2cam.json",
-    "output_json": "C:\\Users\\kaysa\\OneDrive\\Desktop\\robot-hand-eye-calibration-experiments\\03_extrinsic_calibration\\2cam_experiment\\results\\03_validation_2cam\\validation_report_2cam.json"
+    "triangulated": "results/01_triangulation_2cam/triangulated_checkerboard_poses_2cam.json",
+    "joints": "results/01_triangulation_2cam/ur3a_joints_data_2cam.json",
+    "dh_nominal": "../shared_inputs/robot_model_dh_nominal_ur3a.json",
+    "dh_calibrated": "results/02_calibration_2cam/dh_calibrated_2cam.json",
+    "ee_cb": "../shared_inputs/tf_ee_to_cb.json",
+    "calib_report": "results/02_calibration_2cam/calibration_report_2cam.json",
+    "output_json": "results/03_validation_2cam/validation_report_2cam.json"
   },
   "dataset_info": {
     "num_total_matched_samples": 40,
